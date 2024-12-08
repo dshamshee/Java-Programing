@@ -1,3 +1,4 @@
+// Super and Sub class
 // Base class
 class SuperClass {
     int x; // Variable in the superclass
