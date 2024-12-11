@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <!-- <link rel="stylesheet" href="profile_style.css"> -->
+     <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.profile-picture {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #35424a;
+}
+section {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    color: #35424a;
+}
+.workspace-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.workspace-link:hover {
+    background: #2a3841;
+}
+
+     </style>
+   
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+    </header>
+
+    <div class="container">
+        <!-- Profile Picture -->
+        <img src="https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Profile Picture" class="profile-picture">
+
+        <!-- Personal Details Section -->
+        <section>
+            <h2>Personal Details</h2>
+            <p><strong>Name:</strong> Your Name</p>
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>Phone:</strong> +1234567890</p>
+            <p><strong>Address:</strong> 123, Your Street, Your City, Your Country</p>
+        </section>
+
+        <!-- Educational Details Section -->
+        <section>
+            <h2>Educational Details</h2>
+            <p><strong>Highest Qualification:</strong> Bachelor's in Computer Science</p>
+            <p><strong>University:</strong> XYZ University</p>
+            <p><strong>Year of Graduation:</strong> 2023</p>
+        </section>
+
+        <!-- Workspace Directory Link -->
+        <section>
+            <h2>Workspace Directory</h2>
+            <p>Click the link below to access the workspace directory:</p>
+            <a href="https://github.com/dshamshee" target="_blank" class="workspace-link">Open Workspace Directory</a>
+        </section>
+    </div>
+</body>
+</html>

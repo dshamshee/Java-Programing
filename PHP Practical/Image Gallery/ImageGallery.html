@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+    </style>
+ 
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/29504322/pexels-photo-29504322/free-photo-of-creative-portrait-with-flowers-and-love-message.jpeg" alt="Image 1"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/6462662/pexels-photo-6462662.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/752615/pexels-photo-752615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 4"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/3752169/pexels-photo-3752169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 5"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/3752182/pexels-photo-3752182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 6"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/7582590/pexels-photo-7582590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 6"></div>
+        <div class="gallery-item"><img src="https://images.pexels.com/photos/19305961/pexels-photo-19305961/free-photo-of-a-woman-in-a-leather-skirt-leaning-against-a-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 6"></div>
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1656766500535-3b2ff1f15082?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 6"></div>
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1656767112164-f9f59766357d?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 6"></div>
+    </div>
+</body>
+</html>
