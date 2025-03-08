@@ -52,7 +52,7 @@ public class FileOperations {
 
         // Part 1: Accept strings from user, convert to uppercase, and save to file
         System.out.println("Enter strings to save to file (type 'exit' to finish):");
-        List<String> strings = new ArrayList<>();
+        List<String> strings = new MyArrayList<>();
         while (true) {
             String input = scanner.nextLine();
             if (input.equalsIgnoreCase("exit")) {

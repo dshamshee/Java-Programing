@@ -4,7 +4,7 @@ public class ArrayListToArray {
 
     public static void main(String[] args) {
         // Create an ArrayList
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        MyArrayList<Integer> arrayList = new MyArrayList<>();
 
         // Add elements to the ArrayList
         Scanner scanner = new Scanner(System.in);
